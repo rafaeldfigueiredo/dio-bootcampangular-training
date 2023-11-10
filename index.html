@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Pokedex</title>
 
@@ -10,20 +11,85 @@
 
     <!-- Font Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+
     <!-- Nosso JS -->
     <script src="./assets/js/main.js" defer></script>
 </head>
+
 <body>
-    <header class="content"><h1>Pokedéx</h1></header>
-    <ol>
-        <li>Charmander</li>
-        <li>Squirtle</li>
-        <li>Bulbasaur</li>
-    </ol>
+    <header class="content">
+        <h1>Pokedéx</h1>
+    </header>
+
+    <ol class="pokemons">
+        <li class="pokemon">
+            <span class="number">#001</span>
+            <span class="name">Bulbasaur</span>
+            <div class="detail">
+                <ol class="types">
+                    <li class="type">Grass</li>
+                    <li class="type">Poison</li>
+                </ol>
+
+                <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                    alt="Bulbasaur">
+            </div>
+        </li>
+
+        <!--<li class="pokemon">
+            <span class="number">#002</span>
+            <span class="name">Ivysaur</span>
+
+            <div class="detail">
+                <ol class="types">
+                    <li class="type">Grass</li>
+                    <li class="type">Poison</li>
+                </ol>
+                <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg"
+                    alt="Ivysaur">
+            </div>
+        </li>
+        <li class="pokemon">
+            <header>Venusaur</header>
+            <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg"
+                alt="Venusaur">
+        </li>
+        <li class="pokemon">
+            <header>Charmander</header>
+            <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg"
+                alt="Charmander">
+        </li>
+        <li class="pokemon">
+            <header>Charmeleon</header>
+            <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg"
+                alt="Charmeleon">
+        </li>
+        <li class="pokemon">
+            <header>Charizard</header>
+            <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg"
+                alt="Charizard">
+        </li>
+        <li class="pokemon">
+            <header>Squirtle</header>
+            <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg"
+                alt="Squirtle">
+        </li>
+        <li class="pokemon">
+            <header>Wartortle</header>
+            <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg"
+                alt="Wartortle">
+        </li>
+        <li class="pokemon">
+            <header>Blastoise</header>
+            <img src="//raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg"
+                alt="Blastoise">
+        </li>-->
 </body>
+
 </html>
