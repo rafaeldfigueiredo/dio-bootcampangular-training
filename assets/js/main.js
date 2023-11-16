@@ -14,7 +14,7 @@ function convertPokemonToLi(pokemon) {
                 alt="${pokemon.name}">
             </div>
         </li>
-    `    
+    `
 }
 
 const pokemonList = document.querySelector('#pokemonList')
