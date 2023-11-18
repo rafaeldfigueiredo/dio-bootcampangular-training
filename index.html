@@ -19,15 +19,19 @@
     <link rel="stylesheet" href="/assets/css/pokedex.css">
 
     <!-- Nosso JS -->
+    <script src="./assets/js/pokemon-model.js"></script>
     <script src="./assets/js/pokeapi.js"></script>
     <script src="./assets/js/main.js" defer></script>
 </head>
 
 <body>
-    <h1 class="content">Pokedéx</h1>
-    <ol id="pokemonList" class="pokemons">
-        
-    </ol>
+    <header><h1 class="content">Pokedex</h1></header>
+    <ol id="pokemonList" class="pokemons"></ol>
+    <div class="pagination">
+        <button type="button" id="loadMoreButton">
+            Load More
+        </button>
+    </div>
 </body>
 
 </html>
