@@ -1,0 +1,14 @@
+.container__articles{
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  border: 1px solid white;
+}

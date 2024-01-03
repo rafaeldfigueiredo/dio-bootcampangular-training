@@ -3,7 +3,6 @@ img{
 }
 
 .container__big-card{
-    border: 0.1px solid white;
     border-radius: 5px;
     height: 600px;
     width: 400px;
@@ -18,12 +17,15 @@ img{
     font-size: 20px;
 }
 
-.big-card__description > p{
+.big-card__description {
+    margin-top: 20px;
+}
+.big-card__description > p > a{
     margin-top: 15px;
     color: grey;
 }
 
-.big-card__photo > img{
+.big-card__photo > a > img{
     width: 100%;
     min-width: 400px;
 }

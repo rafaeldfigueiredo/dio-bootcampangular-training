@@ -1,0 +1,12 @@
+.container__menu-bar {
+    margin-top: 15px;
+}
+.container__menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.container__menu-bar > ul > li{
+    list-style-type: none;
+}
