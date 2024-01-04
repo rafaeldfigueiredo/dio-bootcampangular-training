@@ -1,25 +1,20 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <a href="#">
-      <img
-        src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-81688.jpg"
-      />
+    <a [routerLink]="['/content']">
+      <img [src]="photoCover" />
     </a>
   </div>
 
   <div class="big-card__title">
     <a href="#">
-      <h1>Nova Versão do Angular</h1>
+      <h1>{{ cardTitle }}</h1>
     </a>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi
-        deleniti reprehenderit temporibus illo assumenda harum nihil natus
-        dicta, corrupti, voluptatum laudantium officia magni rem culpa? Tempora
-        soluta dolorum asperiores?
+        {{ cardDescription }}
       </a>
     </p>
   </div>

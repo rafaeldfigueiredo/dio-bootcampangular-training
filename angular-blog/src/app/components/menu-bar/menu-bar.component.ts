@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './menu-bar.component.html',
   styleUrl: './menu-bar.component.css'
 })
-export class MenuBarComponent {
-
-}
+export class MenuBarComponent {}
