@@ -1,19 +1,41 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+import { dataFake } from '../../data/dataFake';
+
 
 @Component({
   selector: 'app-content',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './content.component.html',
-  styleUrl: './content.component.css'
+  styleUrls: ['./content.component.css']
 })
 
-
 export class ContentComponent {
-  @Input()
-  photoCover:string = "https://u-static.fotor.com/images/text-to-image/result/PRO-c2cced0ed2ff453b9b5a0e95e67b482f.jpg"
-  @Input()
-  contentTitle:string = "bruh"
-  @Input()
-  contentDescription:string = 'BROOOO'
+  photoCover:string = ""
+  contentTitle:string = ""
+  contentDescription:string = ""
+  private id:string | null = "0"
+
+  constructor(
+    private route:ActivatedRoute
+  ) { }
+
+  ngOnInit(): void {
+    this.route.paramMap.subscribe( value =>
+     this.id = value.get("id")
+    )
+
+    this.setValuesToComponent(this.id)
+  }
+
+  setValuesToComponent(id:string | null){
+    const result = dataFake.filter(article => article.id == id)[0]
+
+    this.contentTitle = result.title
+    this.contentDescription = result.description
+    this.photoCover = result.photoCover
+    
+  }
+
 }
