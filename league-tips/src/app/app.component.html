@@ -1,0 +1,15 @@
+<h1 class="title">League Tips</h1>
+<h3 class="subtitle">A League Fan Site to Store Information</h3>
+
+<ul class="tipsList">
+  @for (item of tips; track $index){
+  <button class="tipsItem" (click)="buttonPress()">
+    {{ item }}
+  </button>
+  }
+</ul>
+
+@if (buttonPressed){
+  @for (item of tips; track $index){
+<li>{{ item }}</li>
+} }

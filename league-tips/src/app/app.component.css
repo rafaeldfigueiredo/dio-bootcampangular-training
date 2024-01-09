@@ -1,0 +1,35 @@
+* {
+  border: 1px solid black;
+  margin: 0;
+}
+
+.title,
+.subtitle,
+.tipsList {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tipsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.tipsItem {
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+  .title,
+  .subtitle,
+  .tipsList {
+    font-size: small;
+  }
+  .tipsList {
+    flex-direction: column;
+  }
+}
