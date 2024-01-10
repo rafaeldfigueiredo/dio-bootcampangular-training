@@ -2,14 +2,21 @@
 <h3 class="subtitle">A League Fan Site to Store Information</h3>
 
 <ul class="tipsList">
-  @for (item of tips; track $index){
+  @for (item of list; track $index){
   <button class="tipsItem" (click)="buttonPress()">
     {{ item }}
   </button>
   }
 </ul>
 
-@if (buttonPressed){
-  @for (item of tips; track $index){
-<li>{{ item }}</li>
-} }
+@for (item of tips; track $index){
+  @if (lanebuttonPressed){
+    <button (click)="tipsbutton()">{{ item }}</button>
+  }
+}
+
+@for (item of tipsLane; track $index){
+  @if (tipsbuttonPressed){ 
+    <p>{{ item }}</p>
+  }
+}
