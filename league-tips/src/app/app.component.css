@@ -18,6 +18,10 @@
   list-style-type: none;
 }
 
+li{
+  border: none;
+}
+
 .button {
   padding: 10px;
   cursor: pointer;

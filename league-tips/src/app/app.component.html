@@ -1,4 +1,11 @@
 <h1 class="title">League Tips</h1>
 <h3 class="subtitle">A League Fan Site to Store Information</h3>
-
-{{ tips }}
+<ul >
+@for (title of tipsTitle; track $index){
+    @for (desc of tipsDesc; track $index) {
+        <li>{{title[$index]}}</li>
+        <li>{{desc[$index]}}</li>
+    }
+}
+    
+</ul>

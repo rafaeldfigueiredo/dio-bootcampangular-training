@@ -1,43 +1,89 @@
 {
-  "Toplaner": {
-    "Lane": "Toplaner",
-    "tips": [{
-      "Slow Push": "Only last hit minions and wait until your next wave arrives"},
-      {"Fast Push": "Make your best effort to clear wave and push wave to enemy tower"},
-      {"Ward": "If you have pushed wave go ward river. Better yet, ward deep in enemy jungle"}
-    ]
+  "lanes": [
+    {
+      "name": "Toplaner",
+      "tips": [
+        {
+          "title": "Slow Push",
+          "description": "Only last hit minions and wait until your next wave arrives."
+        },
+        {
+          "title": "Fast Push",
+          "description": "Make your best effort to clear wave and push wave to enemy tower."
+        },
+        {
+          "title": "Warding",
+          "description": "If you have pushed wave go ward river. Better yet, ward deep in enemy jungle."
+        }
+      ]
+    },
+    {
+      "name": "Jungler",
+      "tips": [
+        {
+          "title": "Map Awareness",
+          "description": "If you see the enemy jungle in the other side of the map and there is neither objectives or gank potential, steal their camps. Better yet, if you have a advantage and vision control, wait for them to come to farm and kill him when they use some cooldowns on camps."
+        },
+        {
+          "title": "Control Wards",
+          "description": "Buy at least one control ward when a objective is coming up. Drop it at the objective pit and either wait for the laners to push wave so they can help you."
+        },
+        {
+          "title": "Future's Market",
+          "description": "If your champion does full clear and can use any secondary runes (unlike Nocturne, for example, who needs ultimate CDR), use Future's Market and any other rune beneficial to you. By not buying a potion and doing one full clear and maybe a crab, you will have enough money for a component in the first back, giving you a massive advantage."
+        }
+      ]
+    },
+    {
+      "name": "Midlaner",
+      "tips": [
+        {
+          "title": "Ward River Bush",
+          "description": "Better than be safe from ganks is to be safe and also see the enemy midlaner roam bot or top. Whenever possible, drop a ward in the river bush."
+        },
+        {
+          "title": "Roam Response",
+          "description": "If the enemy midlaner can roam safely and/or quickly(Talon or Taliyah) and you can't match their speed, just get tower plating. If the get a kill, the gold from tower will make you match the gold they got"
+        },
+        {
+          "title": "Roam Potential",
+          "description": "Conversely, if you can push waves easily/faster than your opponent, don't just stand mid trying to get tower plating and potentially get ganked. Check for overextending enemies, help your jungler to invade or to defeat objectives and most importantly, if you have an completed component/item or is low health, go base."
+        }
+      ]
+    },
+    {
+      "name": "Carry",
+      "tips": [
+        {
+          "title": "Cull",
+          "description": "Support got themselves or you both killed? Got zoned by enemy botlaner of camping jungler? Just farm 450 gold and get a Cull when you return base. This item's passive will help you immensely by matching your gold with the advantage gold the enemy carry has. Granted, you need to farm 100 minions and by then, the lane phase is over. But if you can scale up from a bad lane phase by getting 'free gold', use that to get a chance mid to late game"
+        },
+        {
+          "title": "Heal is Overrated",
+          "description": "Yeah good luck healing a Rengar burst. Get a Exhaust in assassins matchup, Heal in poking matchups, Teleport with champions that need to scale with levels(Vayne or Kog'Maw) and Ghost if you have kiting potential but is dealing with also mobile champions"
+        },
+        {
+          "title": "Cheater's Recall",
+          "description": "Slow Push the first wave(careful to not get poked down), start hitting minions then when the Cannon wave arrives(3rd), do a fast push and make the wave reach the enemy tower. Then retreat back to alcove or ideally just the enemy side and recall, buying either a cull if you have money or just boots or damage/defense item. By the time you get back to lane, the enemy most likely have pushed wave to your side of the lane, making you ready to farm by the safety of tower, a item of advantage while the enemy most likely is low health still trying to push wave to your tower."
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "tips": [
+        {
+          "title": "Don't afk",
+          "description": "Not actually afk, don't sit in lane waiting for the enemy to set you up for a gank or dive. If you have wards, got to the river and ward in front of the dragon pit. In the case the enemy shows up to take crab, you can ping them so your jungle can rob them of their camps while you and your carry knows you guys are in danger."
+        },
+        {
+          "title": "Deep Wards Save Lives",
+          "description": "Everyone benefits from you warding either the cross-section of the enemy jungle(the area between Blue Buff and Gromp,the Frog or between Red Buff and Chickens). You may get in peril, but the value of knowing where is the enemy is worth the risk. This extends to the rest of the game. If your lanes are near enemy towetrs, you can set wards in the enemy jungle so you can pinpoint where they are or set up a trap"
+        },
+        {
+          "title": "Trading Health for Poke",
+          "description": "Notice that Health is not the same as Life. If the enemy has CC down or has wasted a core escape/engage spell, walk a bit up and just auto attack their carry or throw spells. IF they trade back, just retreat. The enemy carry having less health than yours is a net advantage."
+        }
+      ]
     }
-  ,
-  "Jungler": {
-    "Lane": "Jungler",
-    "tips": [
-      {"Map Awareness": "If you see the enemy jungle in the other side of the map and there is neither objectives or gank potential, steal their camps. Better yet, if you have a advantage and vision control, wait for them to come to farm and kill him when they use some cooldowns on camps"},
-      {"Control Ward": "Buy at least one control ward when a objective is coming up. Drop it at the objective pit and either wait for the laners to push wave so they can help you."},
-      {"Future's Market": "If your champion does full clear and can use any secondary runes(unlike Nocturne, for example, who needs ultimate CDR), use Future's Market and any other rune beneficial to you. By not buying a potion and doing one full clear and maybe a crab, you will have enough money for a component in the first back, giving you a massive advantage"}
-    ]}
-  ,
-  "Midlaner": {
-    "Lane": "Midlaner",
-    "tips": [
-      {"Ward River Bush": "Better than be safe from ganks is to be safe and also see the enemy midlaner roam bot or top. Whenever possible, drop a ward in the river bush."},
-      {"Roam Response": "If the enemy midlaner can roam safely and/or quickly(Talon or Taliyah) and you can't match their speed, just get tower plating. If the get a kill, the gold from tower will make you match the gold they got"},
-      {"Roam Potential": "Conversely, if you can push waves easily/faster than your opponent, don't just stand mid trying to get tower plating and potentially get ganked. Check for overextending enemies, help your jungler to invade or to defeat objectives and most importantly, if you have an completed component/item or is low health, go base."}
-    ]
-  },
-  "Carry": {
-    "carryLane": "Carry",
-    "tips": [
-      {"Cull": "Support got themselves or you both killed? Got zoned by enemy botlaner of camping jungler? Just farm 450 gold and get a Cull when you return base. This item's passive will help you immensely by matching your gold with the advantage gold the enemy carry has. Granted, you need to farm 100 minions and by then, the lane phase is over. But if you can scale up from a bad lane phase by getting 'free gold', use that to get a chance mid to late game"},
-      {"Heal is Overrated": "Yeah good luck healing a Rengar burst. Get a Exhaust in assassins matchup, Heal in poking matchups, Teleport with champions that need to scale with levels(Vayne or Kog'Maw) and Ghost if you have kiting potential but is dealing with also mobile champions"},
-      {"Cheater's Recall": "Slow Push the first wave(careful to not get poked down), start hitting minions then when the Cannon wave arrives(3rd), do a fast push and make the wave reach the enemy tower. Then retreat back to alcove or ideally just the enemy side and recall, buying either a cull if you have money or just boots or damage/defense item. By the time you get back to lane, the enemy most likely have pushed wave to your side of the lane, making you ready to farm by the safety of tower, a item of advantage while the enemy most likely is low health still trying to push wave to your tower."}
-    ]
-  },
-  "Support": {
-    "Lane": "Support",
-    "tips": [{
-      "Don't afk": "Not actually afk, don't sit in lane waiting for the enemy to set you up for a gank or dive. If you have wards, got to the river and ward in front of the dragon pit. In the case the enemy shows up to take crab, you can ping them so your jungle can rob them of their camps while you and your carry knows you guys are in danger."},
-      {"Deep Wards Save Lives": "Everyone benefits from you warding either the cross-section of the enemy jungle(the area between Blue Buff and Gromp,the Frog or between Red Buff and Chickens). You may get in peril, but the value of knowing where is the enemy is worth the risk. This extends to the rest of the game. If your lanes are near enemy towetrs, you can set wards in the enemy jungle so you can pinpoint where they are or set up a trap"},
-      {"Trading Health for Poke": "Notice that Health is not the same as Life. If the enemy has CC down or has wasted a core escape/engage spell, walk a bit up and just auto attack their carry or throw spells. IF they trade back, just retreat. The enemy carry having less health than yours is a net advantage."}
-    ]
-  }
+  ]
 }

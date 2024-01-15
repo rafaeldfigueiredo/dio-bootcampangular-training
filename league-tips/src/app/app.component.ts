@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import tipsjson from './data/tips.json';
+import tipsJSON from './data/tips.json';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +9,17 @@ import tipsjson from './data/tips.json';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  tips = Object.entries(tipsjson)
+  tipsTitle:any[] = []
+  tipsDesc:any[] = []
+
+  constructor() {
+    for (const lane of tipsJSON.lanes) {
+      const title = lane.tips.map(tip => tip.title);
+      this.tipsTitle.push(title);
+    }
+    for (const lane of tipsJSON.lanes) {
+      const descriptions = lane.tips.map(tip => tip.description);
+      this.tipsDesc.push(descriptions);
+    }
+  }
 }
